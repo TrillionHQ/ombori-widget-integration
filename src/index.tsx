@@ -1,11 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Init from './init';
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Init from "./init";
+import { StrictMode } from "react";
 
-ReactDOM.render(
-  <React.StrictMode>
+const rootElem = document.getElementById("root")
+
+if (!rootElem) {
+  throw new Error('Root element not found')
+}
+
+const root = ReactDOM.createRoot(rootElem);
+
+root.render(
+  <StrictMode>
     <Init />
-  </React.StrictMode>,
-  document.getElementById('root'),
+  </StrictMode>
 );

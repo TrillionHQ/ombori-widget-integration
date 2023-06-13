@@ -1,4 +1,3 @@
-import React from 'react';
 import { useGridSignals } from '@ombori/grid-signals-react';
 import App from './app';
 

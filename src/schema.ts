@@ -1,16 +1,10 @@
 /**
- * @title Example schema
+ * @title Trillion schema
  */
-export type Schema = {
+export type TrillionSchema = {
   /**
-   * @title Product name
-   * @default "My Example Product"
+   * @title Jewelry carousel ids (sku)
+   * @default "['supernova-s-diamond-ring-in-rose-gold','db-classic-trio-round-brilliant-diamond-ring']"
    */
-  productName: string;
-
-  /**
-   * @title Product price
-   * @default "99 USD"
-   */
-  productPrice: string;
+  carouselIds: string[];
 }

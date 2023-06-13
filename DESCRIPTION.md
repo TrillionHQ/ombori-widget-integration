@@ -1,5 +1,5 @@
-# {{applicationName}} #
-by {{author}}
+# trillion-widget-integration #
+by trillion
 
 A short description will be displayed in application list.
 
